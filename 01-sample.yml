@@ -1,0 +1,5 @@
+- name: sample ansible playbook
+  hosts: localhost
+  connection: local
+  tasks:
+   - ping:
